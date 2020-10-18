@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab835e8-e7f3-44d5-946e-39d659895f8a" name="Default Changelist" comment="" />
+    <list default="true" id="dab835e8-e7f3-44d5-946e-39d659895f8a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayerBehaviorScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerBehaviorScript.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,15 +37,17 @@
     <setting file="file://$PROJECT_DIR$/ProjectileScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerBehaviorScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HealthScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlayerWeaponShootingScript.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ApproachingMovementScript.cs" />
         <option value="$PROJECT_DIR$/ObjectMovementScript.cs" />
-        <option value="$PROJECT_DIR$/PlayerBehaviorScript.cs" />
         <option value="$PROJECT_DIR$/ProjectileScript.cs" />
         <option value="$PROJECT_DIR$/HealthScript.cs" />
+        <option value="$PROJECT_DIR$/PlayerWeaponShootingScript.cs" />
+        <option value="$PROJECT_DIR$/PlayerBehaviorScript.cs" />
       </list>
     </option>
   </component>
@@ -67,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603037589426</updated>
       <workItem from="1603037636223" duration="129000" />
-      <workItem from="1603037801290" duration="6931000" />
+      <workItem from="1603037801290" duration="9768000" />
     </task>
     <servers />
   </component>

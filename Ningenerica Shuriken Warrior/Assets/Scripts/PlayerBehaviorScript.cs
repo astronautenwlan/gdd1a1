@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerBehaviorScript : MonoBehaviour
 {
     // Player's general movement. Player speed is set to "public", so we can manage it in the Unity "Inspector" Pane
-    public Vector2 player_speed_ = new Vector2(50, 50);
+    public Vector2 player_speed_ = new Vector2(6, 6);
     private Vector2 player_movement_ = new Vector2();
     private Rigidbody2D player_rigidbody_component_;
     
@@ -24,7 +24,23 @@ public class PlayerBehaviorScript : MonoBehaviour
         
         // Save that in Movement Variable
         player_movement_ = new Vector2(inputX * player_speed_.x, inputY * player_speed_.y);
-            
+        
+        // Check if shooting
+        bool is_shooting = Input.GetButton("Fire1");
+        is_shooting |= Input.GetButton("Fire2");
+        // |=  is a compound assignment. x |= y is the same as x = x | y;
+        if (is_shooting)
+        {
+            PlayerWeaponShootingScript weapon = GetComponent<PlayerWeaponShootingScript>();
+            if (weapon != null)
+            {
+                // the argument is boolean is_the_player_
+                weapon.doAttack(true);
+            }
+        }
+
+
+
     }
 
     // Called every fixed Frame - Use this for Physics
