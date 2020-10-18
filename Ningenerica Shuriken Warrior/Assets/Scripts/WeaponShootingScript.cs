@@ -8,8 +8,7 @@ public class WeaponShootingScript : MonoBehaviour
     public Transform shot_prefab_;
     
     public float shooting_rate_ = 0.25f;
-
-
+    
     private float shoot_cooldown_timer_;
     
     // Start is called before the first frame update

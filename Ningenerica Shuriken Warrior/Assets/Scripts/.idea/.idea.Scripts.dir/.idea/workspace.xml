@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dab835e8-e7f3-44d5-946e-39d659895f8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Prefabs/Dark_Wizard_Fireball_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Dark_Wizard_Fireball_Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prefabs/Dark_Wizard_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Dark_Wizard_Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prefabs/Light_Bandit_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Light_Bandit_Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prefabs/Player_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Player_Prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dark_Wizard_Weapon_Shooting_Script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dark_Wizard_Weapon_Shooting_Script.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeaponShootingScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeaponShootingScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +47,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ApproachingMovementScript.cs" />
-        <option value="$PROJECT_DIR$/ObjectMovementScript.cs" />
         <option value="$PROJECT_DIR$/ProjectileScript.cs" />
         <option value="$PROJECT_DIR$/HealthScript.cs" />
         <option value="$PROJECT_DIR$/PlayerWeaponShootingScript.cs" />
         <option value="$PROJECT_DIR$/PlayerBehaviorScript.cs" />
-        <option value="$PROJECT_DIR$/WeaponShootingScript.cs" />
         <option value="$PROJECT_DIR$/EnemyDarkWizardWeaponScript.cs" />
+        <option value="$PROJECT_DIR$/ObjectMovementScript.cs" />
+        <option value="$PROJECT_DIR$/WeaponShootingScript.cs" />
         <option value="$PROJECT_DIR$/Dark_Wizard_Weapon_Shooting_Script.cs" />
       </list>
     </option>
@@ -76,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603037589426</updated>
       <workItem from="1603037636223" duration="129000" />
-      <workItem from="1603037801290" duration="13257000" />
+      <workItem from="1603037801290" duration="14923000" />
     </task>
     <servers />
   </component>

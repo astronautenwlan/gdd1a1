@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Dark_Wizard_Weapon_Shooting_Script : MonoBehaviour
 {
-    private WeaponShootingScript weapon;
+    private WeaponShootingScript[] weapons;
 
     void Awake()
     {
-        weapon = GetComponent<WeaponShootingScript>();
+        //Get all Weapon shooting Scripts in attached child objects
+        weapons = GetComponentsInChildren<WeaponShootingScript>();
     }
     
     
@@ -21,9 +22,14 @@ public class Dark_Wizard_Weapon_Shooting_Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((weapon != null) && weapon.canAttack())
+        //for each weapon in your child objects, carry out the attack
+        foreach (WeaponShootingScript weapon in weapons)
         {
-            weapon.doAttack(false);
+            //auto fire enemy weapons
+            if ((weapon != null) && weapon.canAttack())
+            {
+                weapon.doAttack(false);
+            }
         }
     }
 }
