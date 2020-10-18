@@ -24,8 +24,7 @@
       <change beforePath="$PROJECT_DIR$/../Prefabs/Light_Bandit_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Light_Bandit_Prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Prefabs/Player_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Player_Prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dark_Wizard_Weapon_Shooting_Script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dark_Wizard_Weapon_Shooting_Script.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeaponShootingScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WeaponShootingScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayerBehaviorScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerBehaviorScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +49,11 @@
         <option value="$PROJECT_DIR$/ProjectileScript.cs" />
         <option value="$PROJECT_DIR$/HealthScript.cs" />
         <option value="$PROJECT_DIR$/PlayerWeaponShootingScript.cs" />
-        <option value="$PROJECT_DIR$/PlayerBehaviorScript.cs" />
         <option value="$PROJECT_DIR$/EnemyDarkWizardWeaponScript.cs" />
         <option value="$PROJECT_DIR$/ObjectMovementScript.cs" />
         <option value="$PROJECT_DIR$/WeaponShootingScript.cs" />
         <option value="$PROJECT_DIR$/Dark_Wizard_Weapon_Shooting_Script.cs" />
+        <option value="$PROJECT_DIR$/PlayerBehaviorScript.cs" />
       </list>
     </option>
   </component>
@@ -80,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603037589426</updated>
       <workItem from="1603037636223" duration="129000" />
-      <workItem from="1603037801290" duration="14923000" />
+      <workItem from="1603037801290" duration="15445000" />
     </task>
     <servers />
   </component>

@@ -53,8 +53,32 @@ public class PlayerBehaviorScript : MonoBehaviour
         }
         // Now we move the player object accordingly
         player_rigidbody_component_.velocity = player_movement_;
-
     }
+
+    // Player collision detection with enemies
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        //Collision with enemy
+        ObjectMovementScript enemy = collision.gameObject.GetComponent<ObjectMovementScript>();
+        if (enemy != null)
+        {
+            //kill enemy
+            HealthScript enemy_health = enemy.GetComponent<HealthScript>();
+            if (enemy_health != null)
+            {
+                enemy_health.damageMe(enemy_health.hp_);
+            }
+
+            //and damage the player
+            HealthScript player_health = this.GetComponent<HealthScript>();
+            if (player_health != null)
+            {
+                player_health.damageMe(1);
+            }
+        }
+    }
+
+
 
     // Called when the Object is destroyed
     void Destroy()
