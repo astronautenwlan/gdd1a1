@@ -31,7 +31,7 @@ public class PlayerBehaviorScript : MonoBehaviour
         // |=  is a compound assignment. x |= y is the same as x = x | y;
         if (is_shooting)
         {
-            PlayerWeaponShootingScript weapon = GetComponent<PlayerWeaponShootingScript>();
+            WeaponShootingScript weapon = GetComponent<WeaponShootingScript>();
             if (weapon != null)
             {
                 // the argument is boolean is_the_player_

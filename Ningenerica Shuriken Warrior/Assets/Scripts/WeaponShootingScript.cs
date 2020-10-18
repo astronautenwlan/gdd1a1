@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerWeaponShootingScript : MonoBehaviour
+public class WeaponShootingScript : MonoBehaviour
 {
     // create a projectile prefab for shooting
     public Transform shot_prefab_;
@@ -27,7 +27,7 @@ public class PlayerWeaponShootingScript : MonoBehaviour
         }
     }
 
-    private bool canAttack()
+    public bool canAttack()
     {
         if (shoot_cooldown_timer_ > 0)
         {
