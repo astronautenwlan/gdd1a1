@@ -1,5 +1,5 @@
 # My own custom gitignore folders
-/Ninja Files/
+/[Aa]ssets/Ninja Files/
 
 
 # This .gitignore file should be placed at the root of your Unity project directory
