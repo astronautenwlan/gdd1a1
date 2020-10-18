@@ -1,6 +1,14 @@
-# My own custom gitignore folders
+# My own custom gitignore files and folders
 /[Aa]ssets/Ninja Files/
-
+/[Aa]ssets/Ninja Files.meta
+/[Aa]ssets/HSPackages/
+/[Aa]ssets/HSPackages.meta
+/[Aa]ssets/Foggy Mountains Background/
+/[Aa]ssets/Foggy Mountains Background.meta
+/[Aa]ssets/Brackeys/
+/[Aa]ssets/Brackeys.meta
+/[Aa]ssets/Bandits - Pixel Art/
+/[Aa]ssets/Bandits - Pixel Art.meta
 
 # This .gitignore file should be placed at the root of your Unity project directory
 #
