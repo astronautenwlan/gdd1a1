@@ -213,7 +213,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af49fa3fb68f4d49a8e384d2a735625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  object_speed_: {x: 2, y: 5}
+  object_speed_: {x: 1.5, y: 5}
   object_direction_: {x: -1, y: 0}
 --- !u!114 &1473010066863627926
 MonoBehaviour:

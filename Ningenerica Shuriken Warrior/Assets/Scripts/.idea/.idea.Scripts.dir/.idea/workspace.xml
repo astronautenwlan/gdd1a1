@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dab835e8-e7f3-44d5-946e-39d659895f8a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Prefabs/Clouds_0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Clouds_0.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prefabs/Clouds_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Clouds_1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prefabs/Clouds_2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Clouds_2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Prefabs/Dark_Wizard_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Dark_Wizard_Prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Prefabs/Light_Bandit_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Light_Bandit_Prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prefabs/Player_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Player_Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayerBehaviorScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerBehaviorScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +38,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ObjectMovementScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectileScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dark_Wizard_Weapon_Shooting_Script.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PlayerBehaviorScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HealthScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WeaponShootingScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectileScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dark_Wizard_Weapon_Shooting_Script.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScrollingScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlayerBehaviorScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RendererExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HealthScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WeaponShootingScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,6 +58,8 @@
         <option value="$PROJECT_DIR$/WeaponShootingScript.cs" />
         <option value="$PROJECT_DIR$/Dark_Wizard_Weapon_Shooting_Script.cs" />
         <option value="$PROJECT_DIR$/PlayerBehaviorScript.cs" />
+        <option value="$PROJECT_DIR$/RendererExtensions.cs" />
+        <option value="$PROJECT_DIR$/ScrollingScript.cs" />
       </list>
     </option>
   </component>
@@ -79,7 +85,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603037589426</updated>
       <workItem from="1603037636223" duration="129000" />
-      <workItem from="1603037801290" duration="15445000" />
+      <workItem from="1603037801290" duration="21192000" />
+      <workItem from="1603303905121" duration="63000" />
     </task>
     <servers />
   </component>
@@ -98,22 +105,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="165" key="SettingsEditor" timestamp="1603043005520">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1603191016558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1603043005520" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1603191016558" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1603043568594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1603043568594" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603043966230">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603188485867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1603043966230" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1603188485867" />
   </component>
 </project>
