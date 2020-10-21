@@ -39,8 +39,9 @@
           <e p="Read Me.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
-          <e p="Dark_Wizard_Weapon_Shooting_Script.cs" t="Include" />
+          <e p="Enemy_Shooting_Script.cs" t="Include" />
           <e p="HealthScript.cs" t="Include" />
+          <e p="ObjectDeletionScript.cs" t="Include" />
           <e p="ObjectMovementScript.cs" t="Include" />
           <e p="PlayerBehaviorScript.cs" t="Include" />
           <e p="ProjectileScript.cs" t="Include" />

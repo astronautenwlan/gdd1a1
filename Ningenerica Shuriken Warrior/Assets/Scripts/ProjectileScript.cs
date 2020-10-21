@@ -10,7 +10,7 @@ public class ProjectileScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // This destroys the game object after a few seconds
+        // This destroys the game object after a few seconds, used in enemy fireballs
         Destroy(gameObject, 3);
     }
 

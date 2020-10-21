@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 3330992272455373285}
   - component: {fileID: 49935890859203123}
   - component: {fileID: 1473010066863627926}
-  - component: {fileID: 3324679141518306353}
+  - component: {fileID: 4726494449350707592}
   m_Layer: 0
   m_Name: Dark_Wizard_Prefab
   m_TagString: Untagged
@@ -213,7 +213,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -256,7 +256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp_: 1
   is_the_player_: 0
---- !u!114 &3324679141518306353
+--- !u!114 &4726494449350707592
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
