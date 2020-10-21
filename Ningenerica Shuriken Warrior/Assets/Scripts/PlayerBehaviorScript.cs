@@ -25,7 +25,20 @@ public class PlayerBehaviorScript : MonoBehaviour
         // Save that in Movement Variable
         player_movement_ = new Vector2(inputX * player_speed_.x, inputY * player_speed_.y);
         
-        // Check if shooting
+        //set boundaries, then later set the player inside those
+        var dist = (transform.position - Camera.main.transform.position).z;
+        var left_border = Camera.main.ViewportToWorldPoint(new Vector3(0.02f, 0, dist) ).x;
+        var right_border = Camera.main.ViewportToWorldPoint(new Vector3(0.95f, 0, dist) ).x;
+        var bottom_border = Camera.main.ViewportToWorldPoint(new Vector3(0, 0.05f, dist) ).y;
+        var top_border = Camera.main.ViewportToWorldPoint(new Vector3(0, 0.6f, dist) ).y;
+
+        // the Mathf.Clamp sets the min and max boundaries. We add something to the y boundary due to our gaming-floor not spanning the whole y axis
+        transform.position = new Vector3(
+            Mathf.Clamp(transform.position.x, left_border, right_border),
+            Mathf.Clamp(transform.position.y, bottom_border, top_border),
+            transform.position.z);
+        
+        // Check if the player is shooting
         bool is_shooting = Input.GetButton("Fire1");
         is_shooting |= Input.GetButton("Fire2");
         // |=  is a compound assignment. x |= y is the same as x = x | y;
