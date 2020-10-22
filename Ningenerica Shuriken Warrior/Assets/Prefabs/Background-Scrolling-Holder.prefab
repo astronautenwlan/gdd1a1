@@ -43,7 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 728af4e48246d1f4bb7676aa54c3e366, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrolling_speed: {x: 1.25, y: 2}
-  scrolling_direction: {x: -1, y: 0}
-  is_linked_to_camera: 0
-  is_looping: 1
+  scrolling_speed_: {x: 2, y: 2}
+  scrolling_direction_: {x: -1, y: 0}
+  respawn_offset_: 0
+  is_linked_to_camera_: 0
+  is_looping_: 1
