@@ -6,7 +6,7 @@ public class WeaponShootingScript : MonoBehaviour
 {
     // create a projectile prefab for shooting
     public Transform shot_prefab_;
-    public float shooting_rate_ = 0.25f;
+    public float shooting_rate_ = 0.35f;
     private float shoot_cooldown_timer_;
 
     // Start is called before the first frame update
