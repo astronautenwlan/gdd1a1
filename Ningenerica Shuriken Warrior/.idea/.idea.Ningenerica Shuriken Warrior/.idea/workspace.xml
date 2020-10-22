@@ -22,12 +22,8 @@
     <list default="true" id="8f19fc52-d396-45cd-9838-b73cfd3cf3a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ningenerica Shuriken Warrior/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ningenerica Shuriken Warrior/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ningenerica Shuriken Warrior/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ningenerica Shuriken Warrior/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dark_Wizard_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dark_Wizard_Prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player_Shuriken_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player_Shuriken_Prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dark_Wizard_Weapon_Shooting_Script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy_Shooting_Script.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dark_Wizard_Weapon_Shooting_Script.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy_Shooting_Script.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProjectileScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProjectileScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WeaponShootingScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WeaponShootingScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Object_Deletion_Line.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Object_Deletion_Line.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerBehaviorScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerBehaviorScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +35,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectDeletionScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySpawningScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/RendererExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScrollingScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerBehaviorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy_Shooting_Script.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponShootingScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ProjectileScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDeletionScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawningScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerBehaviorScript.cs" />
       </list>
     </option>
   </component>
@@ -97,6 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603304133585</updated>
       <workItem from="1603304151518" duration="11314000" />
+      <workItem from="1603393503423" duration="2037000" />
     </task>
     <servers />
   </component>
@@ -115,6 +114,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

@@ -29,7 +29,7 @@ public class PlayerBehaviorScript : MonoBehaviour
         var dist = (transform.position - Camera.main.transform.position).z;
         var left_border = Camera.main.ViewportToWorldPoint(new Vector3(0.02f, 0, dist) ).x;
         var right_border = Camera.main.ViewportToWorldPoint(new Vector3(0.95f, 0, dist) ).x;
-        var bottom_border = Camera.main.ViewportToWorldPoint(new Vector3(0, 0.05f, dist) ).y;
+        var bottom_border = Camera.main.ViewportToWorldPoint(new Vector3(0, 0.06f, dist) ).y;
         var top_border = Camera.main.ViewportToWorldPoint(new Vector3(0, 0.6f, dist) ).y;
 
         // the Mathf.Clamp sets the min and max boundaries. We add something to the y boundary due to our gaming-floor not spanning the whole y axis

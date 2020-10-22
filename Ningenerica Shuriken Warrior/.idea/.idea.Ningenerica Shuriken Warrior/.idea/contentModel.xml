@@ -40,6 +40,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Enemy_Shooting_Script.cs" t="Include" />
+          <e p="EnemySpawningScript.cs" t="Include" />
           <e p="HealthScript.cs" t="Include" />
           <e p="ObjectDeletionScript.cs" t="Include" />
           <e p="ObjectMovementScript.cs" t="Include" />
