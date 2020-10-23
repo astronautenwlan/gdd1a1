@@ -22,6 +22,9 @@
             <e p="BackgroundHelper.cs" t="Include" />
           </e>
         </e>
+        <e p="FramesPerSecond" t="Include">
+          <e p="FramesPerSecond.cs" t="Include" />
+        </e>
         <e p="HSPackages" t="Include">
           <e p="InfiniteGround" t="Include">
             <e p="Documentation" t="Include">
