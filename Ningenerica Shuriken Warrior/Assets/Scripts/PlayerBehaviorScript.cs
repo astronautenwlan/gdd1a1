@@ -38,21 +38,44 @@ public class PlayerBehaviorScript : MonoBehaviour
             Mathf.Clamp(transform.position.y, bottom_border, top_border),
             transform.position.z);
         
-        // Check if the player is shooting
-        bool is_shooting = Input.GetButton("Fire1");
-        is_shooting |= Input.GetButton("Fire2");
+        
+        // Check if the player wants to shoot with normal weapon
+        bool is_shooting_stars = Input.GetButton("Fire1");        
+        // Check if the player wants to shoot with Ice Weapon
+        bool is_shooting_ice = Input.GetButton("Fire2");
+        // Check if the player wants to shoot with Explosion Weapon
+        bool is_shooting_explosion = Input.GetButton("Fire3");
+        
+        
         // |=  is a compound assignment. x |= y is the same as x = x | y;
-        if (is_shooting)
+        if (is_shooting_stars)
         {
             WeaponShootingScript weapon = GetComponent<WeaponShootingScript>();
             if (weapon != null)
             {
                 // the argument is boolean is_the_player_
-                weapon.doAttack(true);
+                weapon.doAttack(true, 0);
+            }
+        }
+        
+        if (is_shooting_ice)
+        {
+            WeaponShootingScript weapon = GetComponent<WeaponShootingScript>();
+            if (weapon != null)
+            {
+                weapon.doAttack(true, 1);
             }
         }
 
 
+        if (is_shooting_explosion)
+        {
+            WeaponShootingScript weapon = GetComponent<WeaponShootingScript>();
+            if (weapon != null)
+            {
+                weapon.doAttack(true, 2);
+            }
+        }
 
     }
 

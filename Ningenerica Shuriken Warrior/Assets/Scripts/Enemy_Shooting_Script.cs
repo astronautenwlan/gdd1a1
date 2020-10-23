@@ -26,9 +26,9 @@ public class Enemy_Shooting_Script : MonoBehaviour
         foreach (WeaponShootingScript weapon in weapons)
         {
             //auto fire enemy weapons
-            if ((weapon != null) && weapon.canAttack())
+            if ((weapon != null) && weapon.canAttack(0))
             {
-                weapon.doAttack(false);
+                weapon.doAttack(false, 0);
             }
         }
     }
