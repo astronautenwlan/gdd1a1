@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HealthScript : MonoBehaviour
 {
-    public int hp_ = 1;
+    public int hp_ = 2;
     public bool is_the_player_ = false;
     
     public float frozen_cooldown_timer_ = 0f;
@@ -27,6 +27,12 @@ public class HealthScript : MonoBehaviour
                 {
                     game_over.showButtons();
                 }
+            }
+            else
+            {
+                int old_score = PlayerPrefs.GetInt("PlayerScoreThisGame");
+                int new_score = old_score + 1;
+                PlayerPrefs.SetInt("PlayerScoreThisGame", new_score);
             }
         }
 
@@ -69,7 +75,7 @@ public class HealthScript : MonoBehaviour
                     }
                 }
 
-                if (collided_shot.shot_type_ != 3)
+                if (collided_shot.shot_type_ != 1 && collided_shot.shot_type_ != 3)
                 {
                     Destroy(collided_shot.gameObject);
                 }

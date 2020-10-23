@@ -41,6 +41,7 @@
         <e p="Scripts" t="Include">
           <e p="Enemy_Shooting_Script.cs" t="Include" />
           <e p="EnemySpawningScript.cs" t="Include" />
+          <e p="GameCalculateScoreScript.cs" t="Include" />
           <e p="GameOverScript.cs" t="Include" />
           <e p="HealthScript.cs" t="Include" />
           <e p="MenuScreenScript.cs" t="Include" />
@@ -51,6 +52,7 @@
           <e p="RendererExtensions.cs" t="Include" />
           <e p="ScrollingScript.cs" t="Include" />
           <e p="TextFieldToggleScript.cs" t="Include" />
+          <e p="TitleScreenShowScoreScript.cs" t="Include" />
           <e p="TitleToggleCreditsScript.cs" t="Include" />
           <e p="WeaponShootingScript.cs" t="Include" />
         </e>

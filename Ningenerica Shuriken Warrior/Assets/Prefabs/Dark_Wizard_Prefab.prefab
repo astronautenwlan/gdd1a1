@@ -47,7 +47,7 @@ MonoBehaviour:
     type: 3}
   ice_prefab_: {fileID: 0}
   explosion_prefab_: {fileID: 0}
-  shooting_rate_: 0.35
+  shooting_rate_: 1.75
   shooting_rate_ice_: 1
   shooting_rate_explosion_: 1
 --- !u!1 &5501367005203644674
@@ -97,7 +97,7 @@ MonoBehaviour:
     type: 3}
   ice_prefab_: {fileID: 0}
   explosion_prefab_: {fileID: 0}
-  shooting_rate_: 0.35
+  shooting_rate_: 1.75
   shooting_rate_ice_: 1
   shooting_rate_explosion_: 1
 --- !u!1 &8393715494644906427
@@ -327,6 +327,6 @@ MonoBehaviour:
     type: 3}
   ice_prefab_: {fileID: 0}
   explosion_prefab_: {fileID: 0}
-  shooting_rate_: 0.35
+  shooting_rate_: 1.75
   shooting_rate_ice_: 1
   shooting_rate_explosion_: 1
