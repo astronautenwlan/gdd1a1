@@ -12,6 +12,7 @@ public class WeaponShootingScript : MonoBehaviour
     public float shooting_rate_ = 0.35f;
     public float shooting_rate_ice_ = 1.0f;
     public float shooting_rate_explosion_ = 1.0f;
+    
     private float shooting_cooldown_timer_;
     private float shooting_ice_cooldown_timer_;
     private float shooting_explosion_cooldown_timer_;
@@ -34,7 +35,7 @@ public class WeaponShootingScript : MonoBehaviour
 
     public bool canAttack(int attack_type)
     {
-        HealthScript my_status = GetComponent<HealthScript>();
+        HealthScript my_status = GetComponentInParent<HealthScript>();
         if (my_status != null)
         {
             if (my_status.frozen_cooldown_timer_ > 0)

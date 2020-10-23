@@ -160,3 +160,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage_inflicted_: 5
   is_player_shot_: 1
+  shot_type_: 2

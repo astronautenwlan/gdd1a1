@@ -21,6 +21,15 @@ public class ObjectMovementScript : MonoBehaviour
     void Update()
     {
         object_movement_ = new Vector2(object_direction_.x * object_speed_.x, object_direction_.y * object_speed_.y);
+        
+        HealthScript my_status = GetComponent<HealthScript>();
+        if (my_status != null)
+        {
+            if (my_status.frozen_cooldown_timer_ > 0)
+            {
+                object_movement_ = new Vector2(0,0);
+            }
+        }
     }
 
     void FixedUpdate()
