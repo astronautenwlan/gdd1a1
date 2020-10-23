@@ -14,6 +14,15 @@ public class HealthScript : MonoBehaviour
         if (hp_ <= 0)
         {
             Destroy(gameObject);
+            if (is_the_player_)
+            {            
+                //Search for the GameOver Canvas, and activate the buttons
+                var game_over = FindObjectOfType<GameOverScript>();
+                if (game_over != null)
+                {
+                    game_over.showButtons();
+                }
+            }
         }
     }
 

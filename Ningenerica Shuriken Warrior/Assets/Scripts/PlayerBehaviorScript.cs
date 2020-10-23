@@ -96,6 +96,6 @@ public class PlayerBehaviorScript : MonoBehaviour
     // Called when the Object is destroyed
     void Destroy()
     {
-        
+
     }
 }
