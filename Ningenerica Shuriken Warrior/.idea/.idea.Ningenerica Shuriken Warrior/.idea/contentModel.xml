@@ -50,6 +50,8 @@
           <e p="ProjectileScript.cs" t="Include" />
           <e p="RendererExtensions.cs" t="Include" />
           <e p="ScrollingScript.cs" t="Include" />
+          <e p="TextFieldToggleScript.cs" t="Include" />
+          <e p="TitleToggleCreditsScript.cs" t="Include" />
           <e p="WeaponShootingScript.cs" t="Include" />
         </e>
       </e>

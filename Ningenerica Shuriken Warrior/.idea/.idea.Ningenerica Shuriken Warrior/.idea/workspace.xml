@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f19fc52-d396-45cd-9838-b73cfd3cf3a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ningenerica Shuriken Warrior/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ningenerica Shuriken Warrior/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ningenerica Shuriken Warrior/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ningenerica Shuriken Warrior/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WeaponShootingScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WeaponShootingScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameplayScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameplayScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TitleMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TitleMenuScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +52,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectMovementScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponShootingScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShowAndHideMe(Text).cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShowAndHideMeText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TitleToggleCredits.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextFieldToggleScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TitleToggleCreditsScript.cs" />
       </list>
     </option>
   </component>
