@@ -21,11 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="8f19fc52-d396-45cd-9838-b73cfd3cf3a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ningenerica Shuriken Warrior/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ningenerica Shuriken Warrior/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dark_Wizard_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dark_Wizard_Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player_Explosion_Shuriken_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player_Explosion_Shuriken_Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player_Ice_Shuriken_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player_Ice_Shuriken_Prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player_Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameplayScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameplayScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TitleMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TitleMenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy_Shooting_Script.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy_Shooting_Script.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerBehaviorScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerBehaviorScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProjectileScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProjectileScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/WeaponShootingScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WeaponShootingScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,14 +48,14 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/RendererExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScrollingScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ProjectileScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDeletionScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawningScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameOverScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HealthScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy_Shooting_Script.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ProjectileScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerBehaviorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponShootingScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthScript.cs" />
       </list>
     </option>
   </component>

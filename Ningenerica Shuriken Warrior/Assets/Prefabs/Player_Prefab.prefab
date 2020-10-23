@@ -165,8 +165,8 @@ MonoBehaviour:
   explosion_prefab_: {fileID: 2873551336536544766, guid: e1417d8b472388949a4172385d6c2438,
     type: 3}
   shooting_rate_: 0.35
-  shooting_rate_ice_: 1
-  shooting_rate_explosion_: 1
+  shooting_rate_ice_: 0.35
+  shooting_rate_explosion_: 0.35
 --- !u!114 &8134625667187153469
 MonoBehaviour:
   m_ObjectHideFlags: 0

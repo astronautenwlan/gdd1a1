@@ -102,14 +102,14 @@ public class PlayerBehaviorScript : MonoBehaviour
             HealthScript enemy_health = enemy.GetComponent<HealthScript>();
             if (enemy_health != null)
             {
-                enemy_health.damageMe(enemy_health.hp_);
+                enemy_health.damageMe(enemy_health.hp_, 0);
             }
 
             //and damage the player
             HealthScript player_health = this.GetComponent<HealthScript>();
             if (player_health != null)
             {
-                player_health.damageMe(1);
+                player_health.damageMe(1,0);
             }
         }
     }

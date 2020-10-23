@@ -34,6 +34,15 @@ public class WeaponShootingScript : MonoBehaviour
 
     public bool canAttack(int attack_type)
     {
+        HealthScript my_status = GetComponent<HealthScript>();
+        if (my_status != null)
+        {
+            if (my_status.frozen_cooldown_timer_ > 0)
+            {
+                return false;
+            }
+        }
+        
         switch (attack_type)
         {
             case 0:

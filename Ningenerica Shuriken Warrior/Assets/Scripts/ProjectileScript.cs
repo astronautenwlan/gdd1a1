@@ -6,6 +6,7 @@ public class ProjectileScript : MonoBehaviour
 {
     public int damage_inflicted_ = 1;
     public bool is_player_shot_ = true;
+    public int shot_type_ = 0;
     
     // Start is called before the first frame update
     void Start()

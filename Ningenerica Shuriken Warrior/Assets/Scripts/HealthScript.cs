@@ -6,8 +6,11 @@ public class HealthScript : MonoBehaviour
 {
     public int hp_ = 1;
     public bool is_the_player_ = false;
+    
+    public float frozen_cooldown_timer_ = 0f;
+    public float frozen_duration_to_apply_ = 2f;
 
-    public void damageMe(int damage_count)
+    public void damageMe(int damage_count, int shot_type)
     {
         hp_ -= damage_count;
 
@@ -24,6 +27,12 @@ public class HealthScript : MonoBehaviour
                 }
             }
         }
+
+        if (shot_type == 1)
+        {
+            frozen_cooldown_timer_ += frozen_duration_to_apply_;
+        }
+        
     }
 
     void OnTriggerEnter2D(Collider2D otherCollider)
@@ -35,7 +44,18 @@ public class HealthScript : MonoBehaviour
         {
             if (collided_shot.is_player_shot_ != is_the_player_)
             {
-                damageMe(collided_shot.damage_inflicted_);
+                damageMe(collided_shot.damage_inflicted_, collided_shot.shot_type_);
+                switch (collided_shot.shot_type_)
+                {
+                    case 0:
+                        break;
+                    case 1:
+                        //freeze enemy
+                        break;
+                    case 2:
+                        //start explosion
+                        break;
+                }
                 Destroy(collided_shot.gameObject);
             }
         }

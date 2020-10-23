@@ -2872,6 +2872,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 894828231}
     m_Modifications:
+    - target: {fileID: 4066974253534799110, guid: cca88d3e46a9c3f4da1a24bf5fbe6988,
+        type: 3}
+      propertyPath: shooting_stars_prefab_
+      value: 
+      objectReference: {fileID: 2873551336536544766, guid: dda89eb16a845b04d900c6bf07c16573,
+        type: 3}
     - target: {fileID: 8315857979232818840, guid: cca88d3e46a9c3f4da1a24bf5fbe6988,
         type: 3}
       propertyPath: m_Name

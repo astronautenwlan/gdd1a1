@@ -158,5 +158,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49cffcf10772cff44966a62d0bd46dda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage_inflicted_: 1
+  damage_inflicted_: 0
   is_player_shot_: 1
