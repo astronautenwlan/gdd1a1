@@ -76,7 +76,7 @@ public class WeaponShootingScript : MonoBehaviour
                 //assign position
                 shot_transform.position = transform.position;
             
-                //assign is_player property from function parameter
+                //
                 ProjectileScript shot = shot_transform.gameObject.GetComponent<ProjectileScript>();
                 if (shot != null)
                 {
@@ -105,7 +105,7 @@ public class WeaponShootingScript : MonoBehaviour
                 //assign position
                 shot_transform.position = transform.position;
             
-                //assign is_player property from function parameter
+                //
                 ProjectileScript shot = shot_transform.gameObject.GetComponent<ProjectileScript>();
                 if (shot != null)
                 {
@@ -133,7 +133,7 @@ public class WeaponShootingScript : MonoBehaviour
                 //assign position
                 shot_transform.position = transform.position;
             
-                //assign is_player property from function parameter
+                //
                 ProjectileScript shot = shot_transform.gameObject.GetComponent<ProjectileScript>();
                 if (shot != null)
                 {

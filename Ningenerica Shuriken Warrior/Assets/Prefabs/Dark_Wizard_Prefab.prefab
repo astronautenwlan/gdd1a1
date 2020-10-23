@@ -45,7 +45,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shot_prefab_: {fileID: 2873551336536544766, guid: 5c8e3bfe68c2af14398c23656c53456e,
     type: 3}
-  shooting_rate_stars: 0.35
+  ice_prefab_: {fileID: 0}
+  explosion_prefab_: {fileID: 0}
+  shooting_rate_: 0.35
+  shooting_rate_ice_: 1
+  shooting_rate_explosion_: 1
 --- !u!1 &5501367005203644674
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,7 +95,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shot_prefab_: {fileID: 2873551336536544766, guid: 5c8e3bfe68c2af14398c23656c53456e,
     type: 3}
-  shooting_rate_stars: 0.35
+  ice_prefab_: {fileID: 0}
+  explosion_prefab_: {fileID: 0}
+  shooting_rate_: 0.35
+  shooting_rate_ice_: 1
+  shooting_rate_explosion_: 1
 --- !u!1 &8393715494644906427
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,6 +264,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp_: 2
   is_the_player_: 0
+  frozen_cooldown_timer_: 0
+  frozen_duration_to_apply_: 2
+  explosion_prefab_: {fileID: 2873551336536544766, guid: 154a59b62d9476a4e95308c6b0a44afb,
+    type: 3}
 --- !u!114 &4726494449350707592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,4 +325,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shot_prefab_: {fileID: 2873551336536544766, guid: 5c8e3bfe68c2af14398c23656c53456e,
     type: 3}
-  shooting_rate_stars: 0.35
+  ice_prefab_: {fileID: 0}
+  explosion_prefab_: {fileID: 0}
+  shooting_rate_: 0.35
+  shooting_rate_ice_: 1
+  shooting_rate_explosion_: 1

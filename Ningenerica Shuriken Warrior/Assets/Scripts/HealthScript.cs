@@ -10,6 +10,8 @@ public class HealthScript : MonoBehaviour
     public float frozen_cooldown_timer_ = 0f;
     public float frozen_duration_to_apply_ = 2f;
 
+    public Transform explosion_prefab_;
+
     public void damageMe(int damage_count, int shot_type)
     {
         hp_ -= damage_count;
@@ -42,21 +44,35 @@ public class HealthScript : MonoBehaviour
         
         if (collided_shot != null)
         {
-            if (collided_shot.is_player_shot_ != is_the_player_)
+            if (collided_shot.is_player_shot_ != this.is_the_player_)
             {
                 damageMe(collided_shot.damage_inflicted_, collided_shot.shot_type_);
-                switch (collided_shot.shot_type_)
+                if (collided_shot.shot_type_ == 2)
                 {
-                    case 0:
-                        break;
-                    case 1:
-                        //freeze enemy
-                        break;
-                    case 2:
-                        //start explosion
-                        break;
+                    //todo spawn Explosion
+                    //create the shot
+                    var shot_transform = Instantiate(explosion_prefab_) as Transform;
+            
+                    //assign position
+                    shot_transform.position = transform.position;
+            
+                    //
+                    ProjectileScript shot = shot_transform.gameObject.GetComponent<ProjectileScript>();
+                    if (shot != null)
+                    {
+                        //set direction facing away from player
+                        ObjectMovementScript move = shot_transform.gameObject.GetComponent<ObjectMovementScript>();
+                        if (move != null)
+                        {
+                            move.object_direction_ = this.transform.right;
+                        }
+                    }
                 }
-                Destroy(collided_shot.gameObject);
+
+                if (collided_shot.shot_type_ != 3)
+                {
+                    Destroy(collided_shot.gameObject);
+                }
             }
         }
     }
