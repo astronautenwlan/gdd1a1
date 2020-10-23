@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HealthScript : MonoBehaviour
 {
@@ -12,9 +13,19 @@ public class HealthScript : MonoBehaviour
 
     public Transform explosion_prefab_;
 
+    public Text tracked_hp_field_;
+
     public void damageMe(int damage_count, int shot_type)
     {
         hp_ -= damage_count;
+
+        if (is_the_player_)
+        {
+            if (tracked_hp_field_ != null)
+            {
+                tracked_hp_field_.text = "HP remaining: " + hp_;
+            }
+        }
 
         if (hp_ <= 0)
         {
