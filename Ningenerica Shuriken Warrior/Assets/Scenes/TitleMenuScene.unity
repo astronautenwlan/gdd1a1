@@ -1319,7 +1319,7 @@ MonoBehaviour:
     +
     Parallax effect in Background
 
-    + Added detailled Credits info'
+    + Added detailed Credits info'
 --- !u!222 &1625167371
 CanvasRenderer:
   m_ObjectHideFlags: 0
