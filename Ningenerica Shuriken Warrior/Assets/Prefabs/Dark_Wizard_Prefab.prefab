@@ -115,6 +115,7 @@ GameObject:
   - component: {fileID: 49935890859203123}
   - component: {fileID: 1473010066863627926}
   - component: {fileID: 4726494449350707592}
+  - component: {fileID: 5542831452708481293}
   m_Layer: 0
   m_Name: Dark_Wizard_Prefab
   m_TagString: Untagged
@@ -268,6 +269,7 @@ MonoBehaviour:
   frozen_duration_to_apply_: 2
   explosion_prefab_: {fileID: 2873551336536544766, guid: 154a59b62d9476a4e95308c6b0a44afb,
     type: 3}
+  tracked_hp_field_: {fileID: 0}
 --- !u!114 &4726494449350707592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,6 +282,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe3e08130f59c8b40a43b9d3f2bc65db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5542831452708481293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8393715494644906427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba054a6b4a572c4fb63ec293973d07f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normal_sprite_: {fileID: 21300000, guid: 08f540b924fba424bb14eac7a2f1275a, type: 3}
+  frozen_sprite_: {fileID: 21300000, guid: 23598ed4b41084149ae8ce5d3dc54ed1, type: 3}
 --- !u!1 &9099073034601915403
 GameObject:
   m_ObjectHideFlags: 0

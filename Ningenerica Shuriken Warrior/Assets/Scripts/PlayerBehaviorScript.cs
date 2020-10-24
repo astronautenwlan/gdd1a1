@@ -6,7 +6,7 @@ public class PlayerBehaviorScript : MonoBehaviour
 {
     // Player's general movement. Player speed is set to "public", so we can manage it in the Unity "Inspector" Pane
     public Vector2 player_speed_ = new Vector2(6, 6);
-    private Vector2 player_movement_ = new Vector2();
+    private Vector2 player_movement_ = new Vector2(0,0);
     private Rigidbody2D player_rigidbody_component_;
     
     // Start is called before the first frame update

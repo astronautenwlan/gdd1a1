@@ -42,6 +42,7 @@
           <e p="Read Me.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="ChangeSpriteScript.cs" t="Include" />
           <e p="Enemy_Shooting_Script.cs" t="Include" />
           <e p="EnemySpawningScript.cs" t="Include" />
           <e p="GameCalculateScoreScript.cs" t="Include" />

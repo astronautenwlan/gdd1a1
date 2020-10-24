@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af49fa3fb68f4d49a8e384d2a735625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  object_speed_: {x: 8, y: 5}
+  object_speed_: {x: 9, y: 5}
   object_direction_: {x: 1, y: 0}
 --- !u!114 &22465495
 MonoBehaviour:
@@ -160,3 +160,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage_inflicted_: 1
   is_player_shot_: 1
+  shot_type_: 0

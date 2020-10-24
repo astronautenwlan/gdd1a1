@@ -7,9 +7,11 @@ public class HealthScript : MonoBehaviour
 {
     public int hp_ = 2;
     public bool is_the_player_ = false;
-    
+
     public float frozen_cooldown_timer_ = 0f;
     public float frozen_duration_to_apply_ = 2f;
+
+    private ChangeSpriteScript my_sprite_script_;
 
     public Transform explosion_prefab_;
 
@@ -18,7 +20,7 @@ public class HealthScript : MonoBehaviour
     public void damageMe(int damage_count, int shot_type)
     {
         hp_ -= damage_count;
-
+        
         if (is_the_player_)
         {
             if (tracked_hp_field_ != null)
@@ -49,7 +51,11 @@ public class HealthScript : MonoBehaviour
 
         if (shot_type == 1)
         {
-            frozen_cooldown_timer_ += frozen_duration_to_apply_;
+            frozen_cooldown_timer_ = frozen_duration_to_apply_;
+            if (my_sprite_script_ != null)
+            {
+                my_sprite_script_.applyFrozenSprite();
+            }
         }
         
     }
@@ -66,7 +72,6 @@ public class HealthScript : MonoBehaviour
                 damageMe(collided_shot.damage_inflicted_, collided_shot.shot_type_);
                 if (collided_shot.shot_type_ == 2)
                 {
-                    //todo spawn Explosion
                     //create the shot
                     var shot_transform = Instantiate(explosion_prefab_) as Transform;
             
@@ -97,12 +102,22 @@ public class HealthScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        my_sprite_script_ = this.gameObject.GetComponent<ChangeSpriteScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (frozen_cooldown_timer_ > 0)
+        {
+            frozen_cooldown_timer_ -= Time.deltaTime;
+            if (frozen_cooldown_timer_ <= 0)
+            {
+                if (my_sprite_script_ != null)
+                {
+                    my_sprite_script_.applyNormalSprite();
+                }
+            }
+        }
     }
 }
